@@ -276,8 +276,8 @@ body::before {
     
     .whatsapp {
         position: fixed;
-        bottom: 80px;
-        right: 20px;
+        bottom: 75px;
+        right: 15px;
     }
 
     .carousel-item img {
