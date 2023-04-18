@@ -1,7 +1,106 @@
 * {
-    margin: 1;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
+
+body {
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+footer {
+        background-color: #24262bee;
+        padding: 30px 5px 0;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-links {
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    .footer-links h4 {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 25px;
+        font-weight:500;
+        border-bottom: 2px solid #D8E9A8;
+        padding-bottom: 10px;
+        display: inline-block;
+
+    }
+
+    .footer-links li a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #BBBBBB;
+        display:block;
+        margin-bottom: 5px;
+        transition: all .3s ease;
+
+    }
+
+    .footer-links  li a:hover {
+        color: white;
+        padding-left: 6px;
+
+    }
+
+    .social-link a {
+        display: inline-block;
+        min-height: 40px;
+        width: 40px;
+        background-color: darkslategrey;
+        margin: 0 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: white;
+        transition: all .5s ease;
+    }
+
+    .social-link-header a {
+        display: inline-block;
+        min-height: 40px;
+        width: 40px;
+        background-color: darkslategrey;
+        margin: 0 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: white;
+        transition: all .5s ease;
+    }
+
+    .social-link a:hover {
+        background-color: #05890c;
+    }
+
+    .social-link-header a:hover {
+        background-color: #05890c;
+    }
+
+    @media(max-width:991px) {
+        .footer-row {
+            text-align: center;
+        }
+
+        .footer-links {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+    }
 
 header {
     position: sticky;
@@ -44,7 +143,7 @@ form {
     padding:10px;
     border:none;
     background-color:#4E9F3D;
-    color:#fff;
+    color: white;
     font-weight:600;
     border-radius:5px;
     width:100%;
@@ -68,11 +167,6 @@ textarea::placeholder {
 .full-width {
     grid-column: span 2;
 
-}
-
-ul, ol {
-    
-    list-style: none;
 }
 
 
@@ -107,10 +201,7 @@ a {
     color: white;
 }
 
-body {
-color: white;
-    
-}
+
 
 body::before {
     content:'';
@@ -170,7 +261,6 @@ body::before {
     color: #D8E9A8;
     position: absolute;
     bottom: 5%;
-    
 
     }
 
@@ -233,18 +323,6 @@ body::before {
     
         }
 
-    footer{
-        display: flex;
-        gap: 20px;
-        background-color: #191A19;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #D8E9A8;
-        text-align: center;
-        letter-spacing: 4px;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
 
     .social-media img {
         
@@ -266,12 +344,8 @@ body::before {
     
     .whatsapp {
         position: fixed;
-        bottom: 75px;
-        right: 15px;
-    }
-
-    .carousel-item img {
-        height: 250px;
+        bottom: 20px;
+        right: 30px;
     }
     
     @media (min-width: 992px) {
