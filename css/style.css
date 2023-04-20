@@ -5,10 +5,6 @@
     list-style: none;
 }
 
-body {
-    text-transform: capitalize;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto
@@ -173,9 +169,8 @@ textarea::placeholder {
 h1 {
     color: #1E5128;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    
 }
-
 
 
 h4 {
