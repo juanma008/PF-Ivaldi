@@ -125,24 +125,9 @@ form {
     border-radius: 20px;
     border: #191A19 4px solid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
     color: #191A19;
 
-}
-
-.button {
-
-    appearance:none;
-    -webkit-appearance:none;
-    cursor: pointer;
-    padding:10px;
-    border:none;
-    background-color:#4E9F3D;
-    color: white;
-    font-weight:600;
-    border-radius:5px;
-    width:100%;
 }
 
 .main-menu {
@@ -343,11 +328,6 @@ body::before {
         right: 30px;
     }
     
-    @media (min-width: 992px) {
-        .carousel-item img {
-            height: 480px;
-        }
-    }
     
     #carouselExampleCaptions {
         width: 60%;

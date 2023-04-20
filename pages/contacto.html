@@ -48,31 +48,56 @@
                 </nav>
     </header>
     <h1>Contacto</h1>
+    <hr>
+
+    <h3 class="text-center"> Dejá tu consulta y a la brevedad te contactaremos! </h3>
 <main>
     <section class="main-menu">
-    <form>
-        <div><label for="Nombre">Nombre y Apellido</label>
-            <input type="text"  id="Nombre" placeholder="Nombre completo" required>
-        </div>
-        <div><label for="Correo">Correo Electrónico</label>
-            <input type="email" placeholder="nombre@ejemplo.com" id="Correo" required></div>
-        
 
-        <div><label for="telefono">Número de telefono</label >
-            <input type="tel" id="telefono" placeholder="11-XXXX-XXXX" required>
-        </div>
-        <div><label for="dni">Dni</label >
-            <input type="text" id="dni" ></div>
+        <form>
+            <div class="row g-3">
+                <div class="col-md-6">
 
-        <div class="full-width">
-        <label for="mensaje">Mensaje:</label><br><br>
-        <textarea id="mensaje" cols="40" rows="10" ></textarea></div>
+                    <label for="Nombre" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="Nombre" required>
+            </div>
 
-        <div><input type="submit" value="Enviar Formulario" class="button"></div>
-        <div><input type="reset" value="Limpiar Formulario" class="button"></div>
-        
-    </form>
-</section>
+                <div class="col-md-6">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos"  required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="Correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="Correo" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" required >
+                </div>
+
+                <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                </div>
+            
+            <hr>
+
+            <div class="row">
+            <div class="col-md-6">
+
+            <button type="submit" class="btn btn-dark w-100 fw-bold" >Enviar</button>
+            </div>
+
+            <div class="col-md-6">
+            <button type="reset" class="btn btn-dark w-100 fw-bold" >Borrar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+        </form>
+    </section>
 </main>
 
 <hr>
