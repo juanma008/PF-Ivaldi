@@ -289,8 +289,9 @@ body::before {
         height:fit-content;
         border: solid 10px #D8E9A8;
         position: relative; 
-    
+            
         }
+
 
     .noticia-index button {
 
@@ -300,8 +301,13 @@ body::before {
         border-radius: 20px;
         background-color: #191A19;
         color: #D8E9A8;
-    
+        
         }
+    
+    .noticia-index button:hover {
+
+        transform: scale(1.1);
+    }
 
 
     .social-media img {
@@ -338,3 +344,4 @@ body::before {
     .navbar {
         width: 100%;
     }
+    
