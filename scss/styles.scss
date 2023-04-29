@@ -112,7 +112,7 @@ header {
 }
 
 .logo-golf {
-    
+    height: 150px;
     width: 150px;
     right: 130%;
 
@@ -294,6 +294,11 @@ body::before {
     position: relative; 
             
     }
+
+.noticia-index img {
+    width: 300px;
+    aspect-ratio: auto 1 / 1;
+}
 
 .noticia-index button {
 
