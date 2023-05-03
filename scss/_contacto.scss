@@ -1,0 +1,16 @@
+form {
+    @include flex-columna;
+    gap: $espacio-chico;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    border: #191A19 4px solid;
+    display: grid;
+    color: #191A19;
+
+    .campos {
+        @include flex-columna;
+    }
+}

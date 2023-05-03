@@ -1,0 +1,37 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: solid 0.5px #191A19;
+
+}
+
+.navbar {
+    width: 100%;
+    }
+
+    .social-link-header a {
+        display: inline-block;
+        min-height: 40px;
+        width: 40px;
+        background-color: darkslategrey;
+        margin: 0 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: white;
+        transition: all .5s ease;
+    }
+    
+    .social-link a:hover {
+        background-color: #05890c;
+    }
+    
+    .social-link-header a:hover {
+        background-color: #05890c;
+    }

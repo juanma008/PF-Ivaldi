@@ -1,0 +1,38 @@
+/*Paleta de colores*/
+$color-negro: #000;
+$color-gris-claro: #b2b2b2;
+$color-amarillo: yellow;
+$color-verde-oscuro: #1E5128;
+$color-verde-claro: #D8E9A8;
+
+/*Tamaños de fuentes e iconos*/
+$fuente-chica: 14px;
+$fuente-media: 20px;
+$icono-chico: 40px;
+$icono-grande: 60px;
+
+/*Resoluciones de pantallas*/
+$tablet: 768px;
+$desktop: 992px;
+$desktopXG: 1200px;
+
+/*Separaciones (margenes y paddings)*/
+$espacio-Xchico: 10px;
+$espacio-chico: 20px;
+$espacio-medio: 40px;
+$espacio-grande: 60px;
+
+/*MIXINS*/
+/*BOLSITAS DE CODIGO*/
+@mixin flex-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flex-fila-centrado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
