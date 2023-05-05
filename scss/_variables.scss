@@ -1,7 +1,8 @@
 /*Paleta de colores*/
-$color-negro: #000;
+$color-negro: black;
 $color-gris-claro: #b2b2b2;
-$color-amarillo: yellow;
+$color-gris-oscuro: #24262bee;
+$color-amarillo: #D8E9A8;
 $color-verde-oscuro: #1E5128;
 $color-verde-claro: #D8E9A8;
 
@@ -19,7 +20,7 @@ $desktopXG: 1200px;
 /*Separaciones (margenes y paddings)*/
 $espacio-Xchico: 10px;
 $espacio-chico: 20px;
-$espacio-medio: 40px;
+$espacio-medio: 30px;
 $espacio-grande: 60px;
 
 /*MIXINS*/

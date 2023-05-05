@@ -1,7 +1,3 @@
-iframe {
-    max-width: 100%;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -12,14 +8,6 @@ iframe {
 .container {
     max-width: 1200px;
     margin: 0 auto
-}
-
-.main-menu {
-        margin: 0 auto;
-        padding: 16px ;
-        width: 100%;
-        max-width: 960px;
-
 }
 
 input::placeholder,
@@ -33,7 +21,6 @@ textarea::placeholder {
     grid-column: span 2;
 
 }
-
 
 h1 {
     color: #1E5128;
@@ -94,76 +81,6 @@ body::before {
     padding: 5px 10px;
 }
 
-.padre-galeria {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
-    
-    }
-    
-.padre-galeria img {width: 500px;
-    border-radius: 30px;
-
-    }
-
-.seccion-noticias {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-        
-    }
-
-.noticia-index {
-    background-color: #1e5128b0;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 30px 55px 17px ; 
-    padding: 20px;
-    width: 350px;
-    height:fit-content;
-    border: solid 10px #D8E9A8;
-    position: relative; 
-            
-    }
-
-.noticia-index img {
-    width: 300px;
-    aspect-ratio: auto 1 / 1;
-}
-
-.noticia-index button {
-
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
-    border-radius: 20px;
-    background-color: #191A19;
-    color: #D8E9A8;
-    
-    }
-    
-.noticia-index button:hover {
-
-    transform: scale(1.1);
-    }
-
-
-.social-media img {
-        
-    position: relative;
-    padding: 10px;
-    width: 50px;
-    gap: 30px;
-    }
-
-    
-.titulo-noticia {
-    color: #D8E9A8;
-    }
 
 .icono-redes, .whatsapp {
     width: 40px;
@@ -175,9 +92,12 @@ body::before {
     right: 30px;
     }
     
-    
 #carouselExampleCaptions {
     height: 60%;
     width: 60%;
     margin: 0 auto;
+    }
+
+iframe {
+        max-width: 100%;
     }

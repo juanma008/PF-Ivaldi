@@ -1,22 +1,37 @@
+.seccion-productos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        
+    }
+
 .card {
-    background-color: #1e5128b0;
+    background-color: $color-verde-oscuro;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 30px 30px 55px 17px ; 
-    padding: 60px;
+    padding: $espacio-grande;
     width: 300px;
     height: 560px;
-    border: solid 10px #D8E9A8;
+    border: solid 10px $color-amarillo;
     position: relative; 
     align-items: center;
 
+    .card img {
 
+        border: solid 2px black;
+        gap: $espacio-chico;
     }
 
-.card img {
+    .card p {
+        font-size: $fuente-chica;
+        
+    }
 
-    border: solid 2px black;
-}
+    
+    
+    }
 
 .card button {
 
@@ -25,9 +40,13 @@
     cursor: pointer;
     border-radius: 20px;
     background-color: #191A19;
-    color: #D8E9A8;
+    color: $color-amarillo;
     position: absolute;
     bottom: 5%;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 
     }
 
@@ -40,7 +59,7 @@
     right: 0px;
     width: 100px;
     color:#db1616;
-    background-color:#D8E9A8;
+    background-color:$color-amarillo;
     border: dotted 2px black ;
     
     }
