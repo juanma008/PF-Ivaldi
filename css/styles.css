@@ -228,7 +228,7 @@ header {
   margin: 30px 30px 55px 17px;
   padding: 60px;
   width: 300px;
-  height: 560px;
+  height: 510px;
   border: solid 10px #D8E9A8;
   position: relative;
   align-items: center;
@@ -237,8 +237,10 @@ header {
   border: solid 2px black;
   gap: 20px;
 }
-.card .card p {
-  font-size: 14px;
+.card .card li {
+  font-size: 8px;
+  font-weight: lighter;
+  padding: 60px;
 }
 
 .card button {

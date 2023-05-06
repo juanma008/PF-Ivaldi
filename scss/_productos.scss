@@ -13,7 +13,7 @@
     margin: 30px 30px 55px 17px ; 
     padding: $espacio-grande;
     width: 300px;
-    height: 560px;
+    height: 510px;
     border: solid 10px $color-amarillo;
     position: relative; 
     align-items: center;
@@ -24,13 +24,12 @@
         gap: $espacio-chico;
     }
 
-    .card p {
-        font-size: $fuente-chica;
-        
+    .card li {
+        font-size: 8px;
+        font-weight:lighter;
+        padding: $espacio-grande;
     }
 
-    
-    
     }
 
 .card button {
