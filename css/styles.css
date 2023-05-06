@@ -108,7 +108,6 @@ form {
   padding: 20px;
   border-radius: 20px;
   border: #191A19 4px solid;
-  display: grid;
   color: #191A19;
 }
 form .campos {
