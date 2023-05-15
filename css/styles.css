@@ -201,13 +201,14 @@ header {
   background-color: #05890c;
 }
 
+/*map-get*/
 .seccion-productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.card {
+.card, .card-vendida {
   background-color: #1E5128;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -219,17 +220,21 @@ header {
   position: relative;
   align-items: center;
 }
-.card .card img {
+.card .card img, .card-vendida .card img, .card .card-vendida img, .card-vendida .card-vendida img {
   border: solid 2px black;
   gap: 20px;
 }
-.card .card li {
+.card .card li, .card-vendida .card li, .card .card-vendida li, .card-vendida .card-vendida li {
   font-size: 8px;
   font-weight: lighter;
   padding: 60px;
 }
 
-.card button {
+.card-vendida {
+  background: #820000;
+}
+
+.card button, .card-vendida button {
   border: none;
   padding: 8px 15px;
   cursor: pointer;
@@ -239,11 +244,11 @@ header {
   position: absolute;
   bottom: 5%;
 }
-.card button:hover {
+.card button:hover, .card-vendida button:hover {
   transform: scale(1.1);
 }
 
-.oferta {
+.oferta, .agotado {
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;

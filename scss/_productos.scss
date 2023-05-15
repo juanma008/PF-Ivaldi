@@ -1,3 +1,10 @@
+
+/*map-get*/
+$colores: (
+    primary: darkgreen,
+    secondary: #820000
+);
+
 .seccion-productos {
 
     display: flex;
@@ -32,6 +39,11 @@
 
     }
 
+.card-vendida {
+    @extend .card;
+    background: map-get($colores, secondary);
+}
+
 .card button {
 
     border: none;
@@ -48,6 +60,7 @@
     }
 
     }
+    
 
 .oferta {
     
@@ -62,3 +75,9 @@
     border: dotted 2px black ;
     
     }
+
+.agotado {
+
+    @extend .oferta;
+    
+}
